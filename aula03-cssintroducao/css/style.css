@@ -1,0 +1,51 @@
+    
+    /* Teste CSS External*/
+
+body{
+
+    padding-bottom: 500px;
+}
+
+    h3 { color: green;
+    }
+
+/* titulo com  */
+.Paragrafo {
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+
+/* titulo com ID */
+#titulo-com-id { 
+background-color: green;
+color: white;
+padding: 10px;
+font-size: 40px;
+
+}
+
+
+/* Regra de ordem */
+
+h3{
+border-bottom: 2px solid blue;
+
+
+}
+
+.class-titulo{
+
+    border-bottom: 2px solid red;
+}
+
+#id-titulo{
+        border-bottom: 2px solid purple;
+
+}
+
+
+
+
+
+
