@@ -47,7 +47,7 @@
     background-color: rgb(100, 50, 33);
     color: #0fa;
 }
-/* opacidade no background color */
+/* opacidade no background color ( fundo transparente e fonte tambem*/
 
 .bg-com-opacidade{
     background-color: red;
@@ -60,7 +60,7 @@
     opacity: 0.8;
 }
 
-/* RBGA com opacidade */
+/* RBGA com opacidade (fundo transparente e fonte nao */
 
 .rgba-opacidade{
     background-color: rgba(90, 100, 40, 0.2);
