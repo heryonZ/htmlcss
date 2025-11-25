@@ -4,164 +4,238 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Hello world!</title>
+    <title>Fala Bicho</title>
+<link rel="stylesheet" href="./estilo-projeto.css">
 
+<style>
 
-    <style>
-        body {
 
-            background-image: url(paw-solid.svg);
 
-            background-size: 50px;
+body {
 
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
+background-color: rgba(31, 50, 112, 0.03);
 
-        }
+background-image: url(./paw-solid-full.svg);
 
-        main {
+background-size: 50px;
 
-            background-color: rgba(255, 255, 255, 0.753);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
 
-        }
+}
 
-        aside {
+main {
 
-            float: right;
+background-color: rgba(255, 255, 255, 0.95);
 
-            background-color: #fff;
+width: 1024px;
 
-            padding: 15px;
+padding: 10px;
 
-            color: darkblue;
+margin: auto;
 
-            border: 1px solid rgba(31, 50, 112, 0.3);
+}
 
-            border-radius: 5% 20%;
+nav ul {
 
-        }
+height: 38px;
 
-        aside img {
+list-style: none;
 
-            width: 32px;
+padding: 0;
 
-            padding: 3px;
+border: 2px solid rgba(31, 50, 112, 0.3);
 
-        }
+background-color: #fff;
 
-        aside a {
+}
 
-            text-decoration: none;
+nav ul li {
 
-        }
+float: left;
 
-        main {
+border-left: 1px solid rgba(31, 50, 112, 0.3);
 
-            background-color: rgba(255, 255, 255, 0.9);
+border-right: 1px solid rgba(31, 50, 112, 0.3);
 
-            width: 1024px;
+}
 
-            padding: 10px;
+nav ul li a {
 
-            margin: auto;
+color: darkblue;
 
-        }
+text-decoration: none;
 
-        nav ul li:first-child {
+font-size: 1.2em;
 
-            border-left: none;
+padding: 8px 56px;
 
-        }
+line-height: 2em;
 
-        nav ul li:last-child {
+text-align: center;
 
-            border-right: none;
+}
 
-        }
+nav ul li a:hover {
 
-        nav ul li a:hover {
+background-color: darkblue;
 
-            background-color: darkblue;
+color: #fff;
 
-            color: #fff;
+}
 
-        }
+nav ul li:first-child {
 
-        aside a:hover {
+border-left: none;
 
-            background-color: rgba(31, 50, 112, 0.3);
+}
 
-        }
+nav ul li:last-child {
 
-        nav ul {
+border-right: none;
 
-            height: 38px;
+}
 
-            list-style: none;
+aside {
 
-            padding: 0;
+float: right;
 
-            border: 2px solid rgba(31, 50, 112, 0.3);
+background-color: #fff;
 
-            background-color: #fff;
+padding: 15px;
 
-        }
+color: darkblue;
 
-        nav ul li {
+border: 1px solid rgba(31, 50, 112, 0.3);
 
-            float: left;
+border-radius: 5% 20%;
 
-            border-left: 1px solid rgba(31, 50, 112, 0.3);
+}
 
-            border-right: 1px solid rgba(31, 50, 112, 0.3);
+aside img {
 
-        }
+width: 32px;
 
-        nav ul li a {
+padding: 3px;
 
-            color: darkblue;
+}
 
-            text-decoration: none;
+aside a {
 
-            font-size: 1.2em;
+text-decoration: none;
 
-            padding: 8px 56px;
+}
 
-            line-height: 2em;
+aside a:hover {
 
-            text-align: center;
+background-color: rgba(31, 50, 112, 0.3);
 
-        }
+}
 
-        body {
+h1,h2 {
 
-            background-image: url(./paw-solid-full.svg);
+background-color: rgb(230, 230, 230);
 
-            background-size: 50px;
+color: darkblue;
 
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
+h5 {
 
-        }
+color: #666;
 
-        main {
+text-align: center;
 
-            background-color: rgba(255, 255, 255, 0.9);
+}
 
-        }
+h6 {
 
+color: #666;
 
-        h1,
-        h2 {
-            background-color: rgb(230, 230, 230);
-            color: darkblue;
-        }
+}
 
-        h6 {
-            color: #666;
-        }
-    </style>
+footer {
 
-<body>
+text-align: center;
+
+}
+
+form {
+
+font-family: Gotham, “Helvetica Neue”, Helvetica, Arial, “sans-serif”;
+
+}
+
+fieldset {
+
+margin-top: 10px;
+
+border: 2px solid rgba(31, 50, 112, 0.3);
+
+padding-left: 20px;
+
+border-radius: 20px;
+
+}
+
+legend {
+
+font-weight: bolder;
+
+padding: 5px;
+
+color: darkblue;
+
+font-size: small;
+
+}
+
+p {
+
+line-height: 20px;
+
+}
+
+label[for=“nome”],
+
+label[for=“email”],
+
+label[for=“wpp”] {
+
+width: 10%;
+
+display: block;
+
+float: left;
+
+text-align: right;
+
+margin-right: 5px;
+
+padding: 2px;
+
+}
+
+input[name=“nome”],
+
+input[name=“email”],
+
+input[name=“wpp”] {
+
+border: none;
+
+width: 85%;
+
+padding: 8px;
+
+border-bottom: 2px solid rgba(31, 50, 112, 0.3);
+
+background-color: rgba(31, 50, 112, 0.03);
+
+}
+
+</style>
+
+<body style="background-color: #c2d6e6;">
 
 
     <main>
@@ -196,62 +270,68 @@
 
                 <a href="https://www.facebook.com/senacsaopaulo”"target="_blank">
 
-                    <img src="square-facebook-brands-solid-full.svg" alt=""/>
+                    <img src="./logotipo-do-aplicativo-do-facebook (1).png" alt=""/>
 
                 </a>
 
                 <a href="https://www.instagram.com/senacsaopaulo/" target="_blank">
 
-                    <img src="square-instagram-brands-solid-full.svg" alt=""/>
+                    <img src="./instagram (2).png" alt=""/>
 
                 </a>
 
                 <a href="https://www.youtube.com/user/senacsaopaulo" target="_blank">
 
-                    <img src="square-youtube-brands-solid-full.svg" alt="" />
+                    <img src="./youtube (1).png" alt="" />
 
                 </a>
 
             </aside>
-
+            <h1>Seja Bem-vindo!</h1>
+        <!-- Acima temos um titulo de nivel 1 -->
+            <p>
+            <p>É um prazer tê-lo conosco!</p>
         </header>
 
-        <h1>Seja Bem-vindo!</h1>
-        <!-- Acima temos um titulo de nivel 1 -->
-        <p>
+        <hr />
+<section>
+                
+        <article>
+            <h1>Conheça nosso PetShop</h1>
+            <hr />
+    <div class="quadros" id="missao">
+        <h1>Missão</h1>
+             <p>Lorem ipsum dolor sit amet consectetur   adipisicing elit. Iure mollitia numquam ullam sauhsahusauhsauhasuhashuas </p>
+
+    </div>
+    <div class="quadros" id="visao">
+        <h1>Visão</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum et quam, exercitationem magnam, iste repellendus rasuhasuhsa.</p>
+    </div>
+</article>
+
+ 
+
+     <div class="quadros" id="valores">
+
+        <h1>Valores</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde magnam neque recusandae nobis suscipit sapiente?
+            </p> 
+
+     </div>
+
+    <h5>Venha com seu Pet fazer uma visita.</h5>
+
+            </article>
+
+            <article></article>
+</section>
+    <hr />
         <p>É um prazer tê-lo conosco!</p>
 
-        <hr>
-
-        </head>
-
-
-        <hr>
- <section>
-            
-            <h2>PetSHop Meu Amigo Bicho</h2>
-            <p>
-                Temos produtos marailhosos e o melhor atendimento especial para você e seu amigo Bicho
-            </p>
-        </section>
-
-        <i>especialmente para você</i> e seu <strong>amigo bicho</strong>
-
-        </p>
-
-        <hr>
-
-        <p>É um prazer tê-lo conosco!</p>
-
-        <h6>Desenvolvido por &reg; João Pedro &#129409;</h6>
-
-
-
+        <footer>  <h6>Desenvolvido por Bicho Amigo&reg; &#129409;</h6>
+        </footer>
     </main>
-
-
-
-
 </body>
 
 </html>

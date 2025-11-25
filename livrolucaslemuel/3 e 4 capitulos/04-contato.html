@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt]">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fala Bicho</title>
+<link rel=“stylesheet” href=“estilo-projeto.css” />
+<style>
+
+    form{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+
+fieldset{
+
+margin-top: 10px;
+border: 2px solid rgba(31, 50, 112, 0.3);
+padding-left: 10px;
+}
+
+legend{
+font-weight: bolder;
+padding: 5px;
+color: darkblue;
+font-size: small;
+}
+
+p{
+line-height: 40px;
+margin: 0;
+padding: 2px;
+}
+
+label[for="nome"]
+label[for="email"]
+label[for="wpp"]
+{
+width: 8%;
+display: block;
+float: left;
+text-align: right;
+margin-right: 5px;
+padding: 2px;
+}
+
+input [name="nome"]
+input [name="email"]
+input [name="wpp"]
+{
+border: none;   
+width: 85%;
+padding: 7px;    
+border-bottom: 2px solid rgba(31, 50, 112, 0.3);
+background-color: rgba(31, 50, 112, 0.03);
+}
+
+
+</style>
+
+  </head>
+  <body>
+ 
+<article>
+          <h2>Fala "bicho"</h2>
+          <form action="" method="post">
+            <!--tag <fieldset> cria um container que agrupa os campos relacionados  -->
+            <fieldset>
+                <!-- tag <legend> é usada para nomear esse container. -->
+    <legend>Dados Pessoais</legend>
+    <p>
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome" placeholder="Digite seu nome aqui" autofocus required>
+    </p>
+    <p>
+<label for="email">Email:</label>
+<input type="email" name="email" id="email" placeholder="Digite seu email aqui" required>
+    </p>
+<p>
+<label for="wpp">Whatsapp</label>
+<input type="tel" name="wpp" id="wpp" placeholder="Digite seu WhatsApp aqui" required>
+                </p>
+
+                <p>
+Autoriza o contato via Whatsapp?
+                <br />
+<input type="radio" name="autorizawppS" id="autorizawppS" checked />
+<label for="autorizawppS">Sim</label>
+
+<input type="radio" name="autorizawppS" id="autorizawppN">
+<label for="autorizawpp">Não</label>
+
+                </p>
+
+<legend>Informações sobre</legend>
+<p>
+
+<label for="comentarios">Sugestões</label>
+<br /> 
+
+Adoção de pets
+<br />
+<input type="checkbox" name="infos" id="infos2" value="infodicas"/>
+
+
+
+Dicas e Cuidados
+<br />
+<input type="checkbox" name="infos" id="infos3" value="infoparceiro">
+
+
+
+Ongs e Parceiros Pets
+<br />
+<input type="checkbox" name="infos" id="infos4" value="infodefende"/>
+
+Defesa dos animas
+<br />
+
+<legend> Sugestões e comentarios</legend>
+<p>
+<label for="tipo">Tipo</label>
+<select name="tipo" id="tipo">
+<option value=""></option>
+<option value="sug">Sugestões</option>
+<option value="elo">Elogios</option>
+<option value="rec">Reclamações</option>
+<option value="int">Interesses</option>
+<option value="out">Outros</option>
+
+</select>
+
+</p>
+<textarea name="comentarios" id="comentarios" cols="60" rows="6" placeholder="Digite aqui suas sugestoes, elogios e ouro comentarios."></textarea>
+
+<input type="checkbox" name="infos" id="infol" value="infoadota" checked/>
+</p>
+
+            </fieldset>
+<p style="text-align: center;">
+<input type="submit" value="Enviar" name="Enviar" id="Enviar">
+<input type="reset" value="Limpar" name="reset" id="reset">
+</p>
+          </form>
+        </article>
+      </section>
+      <hr />
+      <footer>
+        <h6>Desenvolvido por Bicho Amigo&reg ; &#129409 
+        </h6>
+      </footer>
+    </main>
+  </body>
+</html>
