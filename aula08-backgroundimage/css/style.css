@@ -1,0 +1,58 @@
+.bgimage{
+background-image: url(../img/tecnologia.PNG);
+padding: 10px;
+color: #fff;
+}
+
+
+/* Centralizar o Background image
+aqui estou aplicando regra de estilo
+para dois elementos de um só vez */
+.bgimg-naocentral,.bgimg-central {
+background-image: url(../img/senaclargotreze.PNG);
+height: 400px;  
+width: 400px;
+
+}
+
+
+.bgimg-naocentral{
+
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+/* Video com Background */
+*{
+    margin: 0;    
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html, body {
+    height: 100%;
+}
+
+.video-background {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+#MeuVideo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+height: auto;
+transform: translate(-50%, -50%);
+z-index: -1;
+
+}
+
+
